@@ -1,30 +1,30 @@
 .completo{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(160, 160, 160);
 }
 
-.imagen1{
-    width: 50px;
-    height: 50px;
-    float: left;
-}
-
-h1{
-   margin-top: 2px;
-   margin-left: 150px;
-   }
-
-.Cabecera{  
-    color: grey;
+.Cabecera{
+    color: rgb(205, 250, 101);
     width: 100%;
-    height: 50px;
+    margin-left: 3%;
     background-color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
-    justify-content: center;
+    display: flex;
+    margin-top: 20px;
     border: 0.5px solid black;
     
 }
 
+.imagen1{
+    height: 100px;
+    width: 100px;
+}
 
+
+h1{
+    margin-left: 10px;
+    margin-top: 50px;
+    
+}
 
 nav ul li {
     width: 18%;
@@ -37,7 +37,7 @@ nav ul li {
     
 }
 nav ul li a{
-    background-color: rgb(186, 252, 252);
+    background-color: rgb(205, 250, 101);
     color: rgb(77, 77, 77);
     text-decoration: none;
     text-align: center;
@@ -47,30 +47,58 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: rgb(86, 105, 100);
+    background-color: rgb(126, 153, 64);
     color: aliceblue;
 }
 
 .Cuerpo{
     display: inline-block;
-    height: 1220px;
+    height: 300px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: rgb(194, 194, 194);
-    color: aliceblue;
+    background-color: rgb(205, 250, 101);
+    color: rgb(17, 17, 17);
     font-family: 'Open Sans', sans-serif;
     border: 0.5px solid rgb(196, 196, 196);
 }
+.box1{
+    background-color: rgb(205, 250, 101);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 
+}
+.box2{
+    background-color: azure;
+    width: 100%;
+    height: 450px;
+}
 
-main img{
+.box3{
+    background-color: azure;
+    width: 35%;
+    height: 350px;
+    margin-left: 5%;
+    padding-top: 50px;
+    
+}
+
+.imagen2{
+    position: relative;
+    margin-top: 50px;
     float: right;
-    width: 330px;
-    height: 220px;
+    width: 650px;
+    height: 350px;
+        
 }
 
-p{
-    margin-top: 45px;
-    margin-left: 15px;
+footer{
+    margin-top: 600px;
 }
+
+
+
+
+
+
 
