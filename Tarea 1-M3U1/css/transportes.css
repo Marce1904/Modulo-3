@@ -1,18 +1,48 @@
 .completo{
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(198, 198, 198);
 }
 
 .Cabecera{
-    color: rgb(205, 250, 101);
+    color: rgb(56, 56, 56);
     width: 100%;
     margin-left: 3%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(78, 153, 206);
     font-family: 'Open Sans', sans-serif;
     display: flex;
     margin-top: 20px;
     border: 0.5px solid black;
+    box-shadow: 0 0 5px black;
     
 }
+
+.animacion{
+    width: 30px;
+    height: 30px;
+    background-color: #8f99a4;
+    
+    animation-name: MiAnimacion;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+        }
+    
+    @keyframes MiAnimacion {
+        from {
+            font-size:0%;
+            margin-left:100%;
+        }
+    
+        50% {
+            font-size:90%;
+            margin-left:50%;
+        }
+    
+        to {
+            font-size:90%;
+            margin-left:5%;
+            width:100%;
+        }
+    }
 h1{
     margin-top: 50px;
     margin-left: 10px;
@@ -26,12 +56,13 @@ nav ul li {
     border: 1px solid;
     border-radius: 0.25em;
     margin-left: 5%;
+    box-shadow: 0 0 5px black;
       
     
 }
 nav ul li a{
-    background-color: rgb(205, 250, 101);
-    color: rgb(77, 77, 77);
+    background-color: rgb(44, 76, 99);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     display: block;
@@ -40,7 +71,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: rgb(126, 153, 64);
+    background-color: rgb(64, 137, 153);
     color: aliceblue;
 }
 
@@ -55,11 +86,11 @@ main img{
     height: 1220px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: rgb(186, 247, 46);
+    background-color: rgb(78, 153, 206);
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     border: 0.5px solid rgb(196, 196, 196);
-    
+    box-shadow: 0 0 5px black;
     
 }
 .box1{
@@ -99,6 +130,11 @@ main img{
     padding-top: 50px;
     text-align: center;
     margin-left: 3%;
+    box-shadow: 0 0 5px rgb(62, 61, 61);
+}
+.box3:hover{
+    transform: scale(1.05);  
+    background-color: #afafaf;
 }
 
 .box4{

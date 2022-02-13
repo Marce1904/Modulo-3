@@ -9,20 +9,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/transportes.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body class="completo">
 
     <header class="Cabecera">
-        <img src="img/cabecera.png" style="width: 150px; height: 150px;" alt="">
-        <h1>Servicios Digitales Marce</h1>
+        <img class="imagen1" src="img/cabecera.png" alt="">
+        <div class="animacion">
+            <h1 ><a href="Index.html" style="color: white; text-decoration: none;"> Servicios Digitales Marce</a></h1>
+        </div>
+        
 
     </header>
 
     <nav class="contenedor" style="font-family: 'Open Sans', sans-serif;">
         <ul>
-            <li class="listaprincipal"> <a href="Index.html"> Quienes Somos</a></li>
+            <li class="listaprincipal"> <a href="index.html"> Quienes Somos</a></li>
             <li class="listaprincipal"> <a href="servicios.html"> Servicios</a></li>
             <li class="listaprincipal"> <a href="contacto.html"> Contacto</a></li>
             <li class="listaprincipal"> <a href="sucursales.html"> Sucursales</a></li>
@@ -30,13 +34,43 @@
     </nav>
 
     <main class="Cuerpo">
-        <img src="img/programando.jpg" alt="">
-        <p>
-        Una empresa digital es la que usa para todos sus procesos Tecnología de Información y Comunicación (mas conocidas como TIC) para obtener ventaja competitiva y diferenciarse de las demás. Una empresa digital, realiza un esfuerzo grande y sistemático para ser: ... Incorporar tecnología a sus productos o servicios.
-        </p>
-        <p>
 
-        </p>
+        <div  class="columna1">
+            <h2 class="box1" style="text-decoration: underline rgb(250, 248, 248)">Escribenos</h2>
+
+            <form action="">
+                <p>
+                    <label for="">Nombre</label>
+                    <input style="width: 300px; height: 20px;background-color: rgb(250, 248, 248);" type="text">
+                </p>
+                <p>
+                    <label for="">Apellido</label>
+                    <input style="width: 300px; height: 20px;background-color: rgb(250, 248, 248);" type="text">
+                </p>
+                <p>
+                    <label for="">e - Mail</label>
+                    <input style="width: 300px; height: 20px;background-color: rgb(250, 248, 248);" type="email">
+                </p>
+                <p>
+                    <label for="">Teléfono</label>
+                    <input style="width: 300px; height: 20px;background-color: rgb(250, 248, 248);" type="number">
+                </p>
+                <p>
+                    <label for="">Comentario</label>
+                </p>
+                <input style="width: 400px; height: 150px; justify-content: end; background-color: rgb(250, 248, 248);" type="text">
+                
+            </form>
+            <ul></ul>
+            <button>Enviar</button>
+
+        </div>
+        <div class="columna2">
+            <h2 class="texto" style="color: black;">Otras vías de comunicación</h2>
+            <p class="texto"><i class="fas fa-phone-volume icono" style="transform: scale(1.05); color: black;  background-color: rgb(146, 152, 157);"> <a href="https://wa.me/+5492604338133?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo" target="_blank" style="color: rgb(8, 8, 8); text-decoration: none;"> Nuestro teléfono: 2604-338133</a></i></p>
+            <p class="texto"><i class="fas fa-at" style="color: black; background-color: rgb(146, 152, 157);"><a href="mailto:marcesanchez1904@gmail.com?Subject=Consulta%20sobre%20Devolución%20del%20mail" target="_blank" style="color: rgb(10, 10, 10); size: 1.5px; text-decoration: none;">E-mail: marcesanchez1904@gmail.com </a></i></p>
+            
+        </div>
 
     </main>
 
