@@ -95,41 +95,61 @@ main img{
 
 .Cuerpo{
     color: black;
-
-    height: 1220px;
+    height: 700px;
     margin-left: 5%;
     margin-right: 5%;
     background-color: rgb(78, 153, 206);
-    background-image: url(https://d11o8pt3cttu38.cloudfront.net/wp-content/uploads/sites/39/2021/09/shutterstock_712414813.jpg);
-    background-repeat:no-repeat;
-    background-position-x:center;
     color: rgb(13, 13, 14);
     font-family: 'Open Sans', sans-serif;
-    border: 0.5px solid rgb(196, 196, 196);
-    display: inline-flex;
+    border: 0.1px solid rgb(197, 197, 197);
     width: 90%;
-    box-shadow: 0 0 5px black;
+    
 }
 .columna1{
     width: 45%;
     height: 500px;
-    margin-left: 12%;
+    margin-left: 2%;
+    display: inline-flex;
 }
+
 .columna2{
-    color: black;    
-    width: 45%;
+    width: 900px;
     height: 500px;
-    border-left: 2px solid rgb(255, 255, 255);
+    margin-left: 5%;
+
+    
 }
+
+
+
+.img2{
+    width: 573px;
+    height: 410px;
+    margin-right: 5%;
+    box-shadow: 0 0 5px rgb(214, 206, 206);
+}
+
+.columna3{
+    background-color: aliceblue;
+    border: 0.1px solid rgb(197, 197, 197);
+    color: black;    
+    width: 100%;
+    height: auto;
+   
+}
+
 .texto{
     font-size: medium;
     color: aliceblue;
     margin-left: 15%;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
-
-    
+.texto10:hover{
+    width: 400px;
+    background-color: rgb(90, 132, 141);
+    color: aliceblue;
+}
 
 
 
