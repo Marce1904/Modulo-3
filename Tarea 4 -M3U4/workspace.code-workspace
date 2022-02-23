@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\iCloudDrive\\Curso de JavaScrip"
+		},
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DIPLOMATURA",
+		"git.ignoreLimitWarning": true
+	}
+}

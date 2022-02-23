@@ -7,32 +7,62 @@
     <title>Document</title>
     <link rel="stylesheet" href="/Modulo 3/Tarea 4 -M3U4/ejercicio1.css">
 </head>
-<body>
+<body class="cuerpo">
 
-    <div class="cuadro">Cuadro 1</div>
-    <div class="cuadro">Cuadro 2</div>
-    <div class="cuadro">Cuadro 3</div>
 
-    <button class="click1">Combinación de color 1</button>
-    <button class="click2" >Combinación de color 2</button>
-    <button class="click3" >Combinación de color 3</button>
+
+
+    <button class="click1" id="combinación1">Combinación de color 1</button>
+    <button class="click2" id="combinación2" >Combinación de color 2</button>
+    <button class="click3" id="combinación3" >Combinación de color 3</button>
+    <button class="click4" id="reset" >Reset</button>
+
+
+
 
     <script>
 
-      var x = document.getElementById("click1"){
-
-        if()
-
-
-
-      }
-
-
       
+      var cuerpo = document.getElementsByClassName("cuerpo")[0];
+      var combinación1 = document.getElementById("combinación1");
+      var combinación2 = document.getElementById("combinación2");
+      var combinación3 = document.getElementById("combinación3");
+      var reset = document.getElementById("reset");
 
 
 
 
+      combinación1.addEventListener('click', function() {
+            cuerpo.classList.add('combinación1');
+
+            
+        });
+      
+      combinación2.addEventListener('click', function() {
+  
+            cuerpo.classList.add('combinación2');
+
+            
+        });
+      combinación3.addEventListener('click', function() {
+  
+          cuerpo.classList.add('combinación3');
+
+        
+      });
+      reset.addEventListener('click', function() {
+  
+      cuerpo.classList.remove('combinación1','combinación2','combinación3');
+
+      reset.addEventListener('click', function() {
+  
+  cuerpo.classList.remove('combinación1','combinación2','combinación3');
+
+
+});
+  
+          
+    
 
     </script>
     

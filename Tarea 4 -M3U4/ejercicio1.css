@@ -1,7 +1,26 @@
-div.cuadro{
-    width: 100px;
-    height: 50px;
-    border: 1 solid black;
-    margin-left: 10%;
 
+
+.cuerpo{
+    background-color: rgb(53, 63, 60);
+    
+}
+
+.cuerpo.combinación1{
+    background-color: rgb(37, 218, 13);
+    
+}
+.cuerpo.combinación2{
+    background-color: rgb(248, 248, 248);
+    
+}
+
+.cuerpo.combinación3{
+    background-color: rgb(238, 88, 205);
+    
+}
+
+
+.botoneras{
+    margin-top: 10%;
+    margin-left: 50px;
 }
