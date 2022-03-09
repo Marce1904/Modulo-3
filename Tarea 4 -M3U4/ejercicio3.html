@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p>Ver en la consola</p>
+    <script>
+
+
+var alumnos = [
+
+  {nombre: 'Juan Gomez',nota: 7}, 
+  {nombre: 'Pedro Rodriguez', nota: 4}, 
+  {nombre: 'Roxana García', nota: 8},
+  {nombre: 'Luciano Lopez', nota: 5}, 
+  {nombre: 'Fernanda Gimenez', nota: 6},
+  {nombre: 'Florencia Martinez', nota: 10},
+  {nombre: 'Raul Sanchez', nota: 7}, 
+  {nombre: 'Sandra Figueroa', nota: 8}
+
+];
+
+var resultado = alumnos.filter (alumnos=> alumnos.nota >= 7);
+console.log(resultado);
+
+var aprobados = alumnos.filter( function(alumno){
+    return  alumno.nota>=7
+});
+
+console.log(aprobados);
+
+
+for(var i=0; i<aprobados.lengh; i++ ){
+
+document.write("<p> alumnos: ${ aprobados[i].nombre}, nota:${ aprobados[i].nota} </p>")
+}
+
+aprobados.forEach(a=>document.write ("${a.nombre} - (${a.nota}) <br>" ))
+
+
+    </script>
+    
+</body>
+</html>
